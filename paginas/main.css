@@ -1,0 +1,61 @@
+body{
+	background-color: #333;
+	color: #fff;
+}
+
+
+.navbar{
+	border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+	 
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.dark-overlay{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 100%;
+}
+
+
+
+#home-section{
+	background: url('img/bg.jpg') no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.home-inner{
+	padding: 150px;
+}
+
+@media (max-width: 992px ){
+	.home-inner{
+		padding-top: 100px;
+	}
+
+}
+.accordion .card-header: after{
+	font-family: "FontAwesome";
+	content: "\f068";
+	float: right;
+}
+.accordion .card-header .collapsed: after{
+	content: "\f067";
+}
+
+.card-block{background-color: lightblue;}
+.card-header{background-color: aqua;}

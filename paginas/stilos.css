@@ -1,0 +1,26 @@
+.lista{
+	border: 1px solid black ;
+	background-color: white;
+	margin: 10px;
+	color: black;
+	border-radius: 10px;
+}
+.cont h1{
+	font-family: sans-serif, sans-serif;
+}
+
+.contenido{
+	font-family: inherit;
+	margin: 30px;
+	text-align: justify;
+	border
+}
+.separador{
+	width: 90%;
+	height: 5px;
+	background-color: blue;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+
